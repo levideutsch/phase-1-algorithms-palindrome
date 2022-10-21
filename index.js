@@ -1,9 +1,24 @@
-function isPalindrome(word) {
-  // Write your algorithm here
+function isPalindrome(string) {
+  console.log(string[string.length-1])
+  console.log(string[6])
+  for (const letter of string) {
+    // console.log(string[0])
+    // console.log(string[5])
+    if (string[0] === string[string.length-1]) {
+      return true 
+    } else {
+      return false
+    }
+  }
+ 
 }
 
 /* 
-  Add your pseudocode here
+Input: "madam"
+Output: true
+
+Input: "robot"
+Output: false
 */
 
 /*
